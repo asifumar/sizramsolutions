@@ -29,10 +29,10 @@
         android:id="@+id/imageButtonPundra"
         android:layout_width="128dp"
         android:layout_height="128dp"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/graduationcap"
+        android:layout_alignParentEnd="true"
         android:layout_below="@+id/imageButtonTMSS"
-        android:layout_alignParentEnd="true" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/schoolcap" />
 
     <TextView
         android:id="@+id/textView2"

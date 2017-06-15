@@ -1,13 +1,89 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sizramsolutions.navdrawer.WebSolutionFragment">
+    tools:context="com.sizramsolutions.navdrawer.WebSolutionFragment"
+    android:weightSum="1">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-</FrameLayout>
+
+    <ImageButton
+        android:id="@+id/imageButtonCallCenter"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/callcenter" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonETender"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButtonCallCenter"
+        android:text="Call Center Management System" />
+
+    <ImageButton
+        android:id="@+id/imageButtonETender"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButtonCallCenter"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/tender" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonCallCenter"
+        android:text="E-Tender System"
+        android:layout_toStartOf="@+id/imageButtonETender"
+        android:layout_alignBottom="@+id/imageButtonETender" />
+
+    <ImageButton
+        android:id="@+id/imageButtonHospital"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/hospital" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonHospital"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButtonETender"
+        android:layout_toEndOf="@+id/imageButtonHospital"
+        android:text="Hospital Management System" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCss"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/textView3"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/computer" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonCss"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonHospital"
+        android:layout_toStartOf="@+id/imageButtonCss"
+        android:text="CSSTLBD Website" />
+
+
+
+
+</RelativeLayout>

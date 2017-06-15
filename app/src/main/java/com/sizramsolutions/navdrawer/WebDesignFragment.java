@@ -31,6 +31,10 @@ public class WebDesignFragment extends Fragment {
         View v = inflater.inflate(R.layout.fragment_web_design, container, false);
 
         ImageButton tmss = (ImageButton)v.findViewById(R.id.imageButtonTMSS);
+        ImageButton pundra = (ImageButton)v.findViewById(R.id.imageButtonPundra);
+        ImageButton mya = (ImageButton)v.findViewById(R.id.imageButtonMYA);
+        ImageButton embassy = (ImageButton)v.findViewById(R.id.imageButtonEmbassy);
+
         tmss.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -41,8 +45,8 @@ public class WebDesignFragment extends Fragment {
             }
         });
 
-        ImageButton pundra = (ImageButton)v.findViewById(R.id.imageButtonPundra);
-        pundra.setOnClickListener(new View.OnClickListener() {
+
+       pundra.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -53,8 +57,8 @@ public class WebDesignFragment extends Fragment {
             }
         });
 
-        ImageButton mya = (ImageButton)v.findViewById(R.id.imageButtonMYA);
-        pundra.setOnClickListener(new View.OnClickListener() {
+
+        mya.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -65,8 +69,8 @@ public class WebDesignFragment extends Fragment {
             }
         });
 
-        ImageButton embassy = (ImageButton)v.findViewById(R.id.imageButtonEmbassy);
-        pundra.setOnClickListener(new View.OnClickListener() {
+
+        embassy.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

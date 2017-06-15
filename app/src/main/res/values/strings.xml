@@ -11,4 +11,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_tmss">TmssActivity</string>
     <string name="title_activity_embassy">EmbassyActivity</string>
+    <string name="title_activity_pundra">PundraActivity</string>
+    <string name="title_activity_mya">MyaActivity</string>
 </resources>

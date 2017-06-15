@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sizramsolutions.navdrawer.WebDesignFragment"
+    android:weightSum="1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ImageButton
+        android:id="@+id/imageButtonTMSS"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/graduationcap" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageButtonPundra"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/imageButtonTMSS"
+        android:text="TMSS Engineering College" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPundra"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/graduationcap"
+        android:layout_below="@+id/imageButtonTMSS"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonTMSS"
+        android:text="Pundra University of Science and Technology"
+        android:layout_toStartOf="@+id/imageButtonPundra"
+        android:layout_alignBottom="@+id/imageButtonPundra" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMYA"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView2"
+        android:cropToPadding="true"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/business" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonMYA"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageButtonPundra"
+        android:layout_toEndOf="@+id/imageButtonMYA"
+        android:text="MYA Trading" />
+
+    <ImageButton
+        android:id="@+id/imageButtonEmbassy"
+        android:layout_width="128dp"
+        android:layout_height="128dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/flag"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageButtonEmbassy"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButtonMYA"
+        android:layout_toStartOf="@+id/imageButtonEmbassy"
+        android:text="Embassy of Bangladesh (Bahrain)" />
+
+
+
+
+</RelativeLayout>

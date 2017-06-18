@@ -1,4 +1,4 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Fragment;
 
 
 import android.os.Bundle;
@@ -7,14 +7,16 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.sizramsolutions.navdrawer.R;
+
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class MissionFragment extends Fragment {
+public class OrganogramFragment extends Fragment {
 
 
-    public MissionFragment() {
+    public OrganogramFragment() {
         // Required empty public constructor
     }
 
@@ -23,7 +25,7 @@ public class MissionFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_mission, container, false);
+        return inflater.inflate(R.layout.fragment_organogram, container, false);
     }
 
 }

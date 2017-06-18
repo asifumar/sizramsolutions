@@ -25,7 +25,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".TmssActivity"
+            android:name=".Activity.TmssActivity"
             android:label="@string/title_activity_tmss"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -34,7 +34,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".PundraActivity"
+            android:name=".Activity.PundraActivity"
             android:label="@string/title_activity_pundra"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -43,7 +43,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".MyaActivity"
+            android:name=".Activity.MyaActivity"
             android:label="@string/title_activity_mya"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
@@ -52,7 +52,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".EmbassyActivity"
+            android:name=".Activity.EmbassyActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -60,7 +60,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".CallCenterActivity"
+            android:name=".Activity.CallCenterActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -68,7 +68,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".TenderActivity"
+            android:name=".Activity.TenderActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -76,7 +76,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".HospitalActivity"
+            android:name=".Activity.HospitalActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -84,7 +84,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".CssActivity"
+            android:name=".Activity.CssActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -92,7 +92,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".CentralActivity"
+            android:name=".Activity.CentralActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -100,7 +100,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".HolyActivity"
+            android:name=".Activity.HolyActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -108,7 +108,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".YakubiaActivity"
+            android:name=".Activity.YakubiaActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
@@ -116,7 +116,7 @@
                 android:value="com.sizramsolutions.navdrawer.MainActivity" />
         </activity>
         <activity
-            android:name=".SummitActivity"
+            android:name=".Activity.SummitActivity"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

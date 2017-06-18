@@ -1,7 +1,9 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import com.sizramsolutions.navdrawer.R;
 
 public class TmssActivity extends AppCompatActivity {
 

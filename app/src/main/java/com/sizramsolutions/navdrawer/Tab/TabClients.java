@@ -1,4 +1,4 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Tab;
 
 
 import android.os.Bundle;
@@ -8,6 +8,9 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import com.sizramsolutions.navdrawer.Adapaters.AdapterClients;
+import com.sizramsolutions.navdrawer.R;
 
 /**
  * A simple {@link Fragment} subclass.

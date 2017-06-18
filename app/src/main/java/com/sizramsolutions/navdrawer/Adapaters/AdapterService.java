@@ -1,19 +1,23 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Adapaters;
 
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import static com.sizramsolutions.navdrawer.TabService.int_items;
+import com.sizramsolutions.navdrawer.Fragment.SecurityFragment;
+import com.sizramsolutions.navdrawer.Fragment.SoftwareFragment;
+import com.sizramsolutions.navdrawer.Fragment.TechnologyFragment;
+
+import static com.sizramsolutions.navdrawer.Tab.TabService.int_items;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AdapterAboutus extends FragmentPagerAdapter {
+public class AdapterService extends FragmentPagerAdapter {
 
 
-    public AdapterAboutus(FragmentManager fm)
+    public AdapterService(FragmentManager fm)
     {
         super(fm);
     }
@@ -21,11 +25,11 @@ public class AdapterAboutus extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new CompanyProfileFragment();
+                return new SoftwareFragment();
             case 1:
-                return new OrganogramFragment();
+                return new SecurityFragment();
             case 2:
-                return new MissionFragment();
+                return new TechnologyFragment();
 
 
 
@@ -43,14 +47,15 @@ public class AdapterAboutus extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position){
         switch (position){
             case 0:
-                return "Company Profile";
+                return "Software Services";
             case 1:
-                return "Organogram";
+                return "Security Services";
             case 2:
-                return "Our Mission and Vision";
+                return "Technology Services";
 
         }
 
         return null;
     }
+
 }

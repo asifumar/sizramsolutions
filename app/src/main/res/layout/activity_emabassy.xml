@@ -4,16 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragment.WebDesignFragment"
-    android:weightSum="1">
+    tools:context="com.sizramsolutions.navdrawer.Activity.EmbassyActivity">
 
     <TextView
-        android:id="@+id/textView1"
+        android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/imageButtonPundra"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_toEndOf="@+id/imageButtonTMSS"
-        android:text="Hello Career" />
-
+        android:layout_marginTop="21dp"
+        android:text="Bangladesh Embassy" />
 </RelativeLayout>

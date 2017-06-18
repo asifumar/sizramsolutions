@@ -1,20 +1,23 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Adapaters;
 
 
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 
-import static com.sizramsolutions.navdrawer.TabService.int_items;
+import com.sizramsolutions.navdrawer.Fragment.CompanyProfileFragment;
+import com.sizramsolutions.navdrawer.Fragment.MissionFragment;
+import com.sizramsolutions.navdrawer.Fragment.OrganogramFragment;
 
+import static com.sizramsolutions.navdrawer.Tab.TabService.int_items;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class AdapterClients extends FragmentPagerAdapter {
+public class AdapterAboutus extends FragmentPagerAdapter {
 
 
-    public AdapterClients(FragmentManager fm)
+    public AdapterAboutus(FragmentManager fm)
     {
         super(fm);
     }
@@ -22,11 +25,11 @@ public class AdapterClients extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new WebSolutionFragment();
+                return new CompanyProfileFragment();
             case 1:
-                return new SchoolManagementFragment();
+                return new OrganogramFragment();
             case 2:
-                return new WebDesignFragment();
+                return new MissionFragment();
 
 
 
@@ -44,15 +47,14 @@ public class AdapterClients extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position){
         switch (position){
             case 0:
-                return "Customized Web Solution";
+                return "Company Profile";
             case 1:
-                return "School Management";
+                return "Organogram";
             case 2:
-                return "Web Design";
+                return "Our Mission and Vision";
 
         }
 
         return null;
     }
-
 }

@@ -11,6 +11,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
+import com.sizramsolutions.navdrawer.Tab.TabAboutus;
+import com.sizramsolutions.navdrawer.Tab.TabClients;
+import com.sizramsolutions.navdrawer.Tab.TabService;
+
 public class MainActivity extends AppCompatActivity{
 
     DrawerLayout drawerLayout;

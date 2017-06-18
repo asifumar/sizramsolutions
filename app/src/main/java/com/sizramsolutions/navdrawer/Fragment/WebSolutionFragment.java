@@ -1,4 +1,4 @@
-package com.sizramsolutions.navdrawer;
+package com.sizramsolutions.navdrawer.Fragment;
 
 
 import android.app.Activity;
@@ -9,6 +9,12 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
+
+import com.sizramsolutions.navdrawer.Activity.CallCenterActivity;
+import com.sizramsolutions.navdrawer.Activity.CssActivity;
+import com.sizramsolutions.navdrawer.Activity.HospitalActivity;
+import com.sizramsolutions.navdrawer.Activity.TenderActivity;
+import com.sizramsolutions.navdrawer.R;
 
 
 /**

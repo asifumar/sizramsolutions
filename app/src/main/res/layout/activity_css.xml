@@ -4,6 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sizramsolutions.navdrawer.Activity.CssActivity">
+    tools:context="com.sizramsolutions.SizramSolutions.Activity.CssActivity">
 
 </android.support.constraint.ConstraintLayout>

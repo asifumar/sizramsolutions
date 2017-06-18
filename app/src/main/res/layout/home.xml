@@ -4,30 +4,21 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/home"
     android:layout_alignBottom="@+id/vertical"
-    android:animateLayoutChanges="false"
     android:orientation="vertical"
     android:scrollbarAlwaysDrawHorizontalTrack="false"
     android:scrollbarAlwaysDrawVerticalTrack="true"
     android:weightSum="1">
 
-    <TextView
-        android:id="@+id/textView10"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:layout_gravity="center"
-        android:background="?android:attr/windowBackground"
-        android:elevation="0dp"
-        android:gravity="left|right|center"
-        android:lineSpacingExtra=".8dp"
-        android:padding="10dp"
-        android:text="Sizram incorporated in Bangladesh, is a privately owned business organization of two sister concern. Sizram has become the market leader of Security Surveillance Solutions and also in Customized Software Solutions since 1997, and till now it captures the maximum market size in Bangladesh."
-        android:textAlignment="gravity"
-        android:textAppearance="@android:style/TextAppearance.Material"
-        android:textSize="20dp"
-        android:typeface="serif"
-        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        app:srcCompat="@drawable/sizramlogo" />
 </RelativeLayout>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.sizramsolutions.navdrawer">
+    package="com.sizramsolutions.SizramSolutions">
 
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
@@ -14,114 +14,118 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
+
         <activity
-            android:name=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.MainActivity"
             android:label="@string/appname"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name="com.sizramsolutions.SizramSolutions.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name=".Activity.TmssActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.TmssActivity"
             android:label="@string/title_activity_tmss"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.PundraActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.PundraActivity"
             android:label="@string/title_activity_pundra"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.MyaActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.MyaActivity"
             android:label="@string/title_activity_mya"
-            android:parentActivityName=".MainActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.EmbassyActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.EmbassyActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.CallCenterActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.CallCenterActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.TenderActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.TenderActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.HospitalActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.HospitalActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.CssActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.CssActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.CentralActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.CentralActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.HolyActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.HolyActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.YakubiaActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.YakubiaActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name=".Activity.SummitActivity"
-            android:parentActivityName=".MainActivity"
+            android:name="com.sizramsolutions.SizramSolutions.Activity.SummitActivity"
+            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.sizramsolutions.navdrawer.MainActivity" />
+                android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
     </application>
 

@@ -17,7 +17,6 @@
         android:layout_height="160dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="1dp"
         android:paddingRight="10dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/sizram" />
@@ -29,13 +28,12 @@
         android:layout_alignParentStart="true"
         android:layout_below="@+id/imageViewClients"
         android:layout_marginStart="33dp"
-        android:background="@android:color/background_light"
-        android:backgroundTint="@android:color/background_light"
+        android:background="@android:color/transparent"
         android:contentDescription="Clients"
         android:elevation="0dp"
         android:padding="10dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/service" />
+        app:srcCompat="@drawable/handshake" />
 
     <ImageButton
         android:id="@+id/imageButtonServices"
@@ -78,7 +76,7 @@
         android:layout_height="100dp"
         android:layout_alignEnd="@+id/imageButtonCareer"
         android:layout_alignTop="@+id/imageButtonAbout"
-        android:background="@android:color/background_light"
+        android:background="@android:color/transparent"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/mail" />
 

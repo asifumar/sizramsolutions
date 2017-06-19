@@ -11,14 +11,14 @@ import android.view.ViewGroup;
  * Created by Asif on 17-May-17.
  */
 
-public class Career extends Fragment {
+public class CareerFragment extends Fragment {
 
 
     @Override
     public void onViewCreated(View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
 
-        getActivity().setTitle("Career");
+        getActivity().setTitle("CareerFragment");
     }
     @Nullable
     @Override

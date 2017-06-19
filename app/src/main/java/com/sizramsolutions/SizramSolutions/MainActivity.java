@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity{
 
         FM= getSupportFragmentManager();
         FragmentTransaction fragmentTransaction=FM.beginTransaction();
-        fragmentTransaction.replace(R.id.containerView,new Home()).commit();
+        fragmentTransaction.replace(R.id.containerView,new HomeFragment()).commit();
 
 
         navigationView.setNavigationItemSelectedListener(new NavigationView.OnNavigationItemSelectedListener() {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity{
                 if (item.getItemId()==R.id.nav_home)
                 {
                     FragmentTransaction fragmentTransaction=FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView,new Home()).commit();
+                    fragmentTransaction.replace(R.id.containerView,new HomeFragment()).commit();
 
                 }
 
@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity{
 
                 if (item.getItemId()== R.id.nav_career) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new Career()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new CareerFragment()).commit();
                 }
 
                 if (item.getItemId()== R.id.nav_clients) {
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity{
 
                 if (item.getItemId()== R.id.nav_contactus) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new Contactus()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new ContactusFragment()).commit();
                 }
 
 

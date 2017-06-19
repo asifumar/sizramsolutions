@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingTop="@dimen/nav_header_vertical_spacing"
-        app:srcCompat="@drawable/sizramlogo" />
+        app:srcCompat="@drawable/sizram" />
 
     <TextView
         android:id="@+id/textView2"

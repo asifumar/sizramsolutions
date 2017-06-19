@@ -5,20 +5,88 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:layout_alignBottom="@+id/vertical"
+    android:background="?attr/colorBackgroundFloating"
     android:orientation="vertical"
     android:scrollbarAlwaysDrawHorizontalTrack="false"
     android:scrollbarAlwaysDrawVerticalTrack="true"
     android:weightSum="1">
 
-
     <ImageView
-        android:id="@+id/imageView2"
+        android:id="@+id/imageViewClients"
         android:layout_width="wrap_content"
-        android:layout_height="200dp"
-        android:layout_alignParentEnd="true"
+        android:layout_height="160dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:paddingLeft="10dp"
+        android:layout_marginTop="1dp"
         android:paddingRight="10dp"
-        app:srcCompat="@drawable/sizramlogo" />
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/sizram" />
+
+    <ImageButton
+        android:id="@+id/imageButtonClients"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageViewClients"
+        android:layout_marginStart="33dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="@android:color/background_light"
+        android:contentDescription="Clients"
+        android:elevation="0dp"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/service" />
+
+    <ImageButton
+        android:id="@+id/imageButtonServices"
+        android:layout_width="170dp"
+        android:layout_height="160dp"
+        android:layout_below="@+id/imageViewClients"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="99dp"
+        android:backgroundTint="@android:color/background_light"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/computer" />
+
+    <ImageButton
+        android:id="@+id/imageButtonCareer"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/imageViewClients"
+        android:layout_marginEnd="36dp"
+        android:background="@android:color/background_light"
+        android:padding="10dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/career" />
+
+    <ImageButton
+        android:id="@+id/imageButtonAbout"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/imageButtonClients"
+        android:layout_below="@+id/imageButtonServices"
+        android:layout_marginTop="9dp"
+        android:background="@android:color/background_light"
+        android:padding="5dp"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/aboutus" />
+
+    <ImageButton
+        android:id="@+id/imageButtonContact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignEnd="@+id/imageButtonCareer"
+        android:layout_alignTop="@+id/imageButtonAbout"
+        android:background="@android:color/background_light"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/mail" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"></FrameLayout>
+
+
 </RelativeLayout>

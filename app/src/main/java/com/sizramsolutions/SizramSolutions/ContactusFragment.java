@@ -11,7 +11,7 @@ import android.view.ViewGroup;
  * Created by Asif on 17-May-17.
  */
 
-public class Contactus extends Fragment {
+public class ContactusFragment extends Fragment {
 
 
     @Override

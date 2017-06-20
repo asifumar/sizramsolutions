@@ -22,7 +22,7 @@ public class TabAboutus extends Fragment {
 
     public  static TabLayout tabLayout;
     public  static ViewPager viewPager;
-    public  static int int_items= 3;
+    public  static int items_aboutus= 3;
 
 
     public TabAboutus() {
@@ -33,7 +33,7 @@ public class TabAboutus extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_service_tab,null);
+        View v = inflater.inflate(R.layout.tab_aboutus,null);
         tabLayout=(TabLayout)v.findViewById(R.id.tabs);
         viewPager=(ViewPager)v.findViewById(R.id.viewpager);
         //set an adpater

@@ -20,7 +20,7 @@ public class TabClients extends Fragment {
 
     public  static TabLayout tabLayout;
     public  static ViewPager viewPager;
-    public  static int int_items= 3;
+    public  static int items_clients= 3;
 
 
     public TabClients() {
@@ -31,7 +31,7 @@ public class TabClients extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.fragment_service_tab,null);
+        View v = inflater.inflate(R.layout.tab_clients,null);
         tabLayout=(TabLayout)v.findViewById(R.id.tabs);
         viewPager=(ViewPager)v.findViewById(R.id.viewpager);
         //set an adpater

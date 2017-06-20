@@ -1,9 +1,12 @@
-package com.sizramsolutions.SizramSolutions;
+package com.sizramsolutions.SizramSolutions.Activity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.Window;
+
+import com.sizramsolutions.SizramSolutions.MainActivity;
+import com.sizramsolutions.SizramSolutions.R;
 
 public class SplashActivity extends AppCompatActivity {
 

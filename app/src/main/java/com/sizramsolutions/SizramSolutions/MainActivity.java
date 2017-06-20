@@ -13,7 +13,7 @@ import android.view.MenuItem;
 
 import com.sizramsolutions.SizramSolutions.Tab.TabAboutus;
 import com.sizramsolutions.SizramSolutions.Tab.TabClients;
-import com.sizramsolutions.SizramSolutions.Tab.TabService;
+import com.sizramsolutions.SizramSolutions.Tab.TabServicesProducts;
 
 public class MainActivity extends AppCompatActivity{
 
@@ -51,9 +51,9 @@ public class MainActivity extends AppCompatActivity{
                     fragmentTransaction.replace(R.id.containerView, new TabAboutus()).commit();
                 }
 
-                if (item.getItemId()== R.id.nav_ourservices) {
+                if (item.getItemId()== R.id.nav_services_products) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabService()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new TabServicesProducts()).commit();
                 }
 
                 if (item.getItemId()== R.id.nav_career) {
@@ -64,6 +64,11 @@ public class MainActivity extends AppCompatActivity{
                 if (item.getItemId()== R.id.nav_clients) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
                     fragmentTransaction.replace(R.id.containerView, new TabClients()).commit();
+                }
+
+                if (item.getItemId()== R.id.nav_portfolio) {
+                    FragmentTransaction fragmentTransaction= FM.beginTransaction();
+                    fragmentTransaction.replace(R.id.containerView, new PortfolioFragment()).commit();
                 }
 
                 if (item.getItemId()== R.id.nav_contactus) {

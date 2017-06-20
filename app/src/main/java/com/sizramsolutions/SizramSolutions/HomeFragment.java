@@ -12,7 +12,7 @@ import android.widget.ImageButton;
 
 import com.sizramsolutions.SizramSolutions.Tab.TabAboutus;
 import com.sizramsolutions.SizramSolutions.Tab.TabClients;
-import com.sizramsolutions.SizramSolutions.Tab.TabService;
+import com.sizramsolutions.SizramSolutions.Tab.TabServicesProducts;
 
 /**
  * Created by Asif on 17-May-17.
@@ -85,7 +85,7 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new TabService()).commit();
+                fragmentTransaction.replace(R.id.containerView, new TabServicesProducts()).commit();
             }
         });
 

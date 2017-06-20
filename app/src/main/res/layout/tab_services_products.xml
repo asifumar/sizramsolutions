@@ -5,13 +5,13 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
 
-    tools:context="com.sizramsolutions.SizramSolutions.Tab.TabService">
+    tools:context="com.sizramsolutions.SizramSolutions.Tab.TabServicesProducts">
 
     <android.support.design.widget.TabLayout
         android:id="@+id/tabs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#fa478168"
+        android:background="#fa284639"
         app:tabGravity="fill"
         app:tabIndicatorColor="#FFA500"
         app:tabMode="fixed"

@@ -12,13 +12,17 @@
             android:icon="@drawable/ic_aboutus"
             android:title="Abous Us" />
         <item
-            android:id="@+id/nav_ourservices"
+            android:id="@+id/nav_services_products"
             android:icon="@drawable/ic_home"
-            android:title="Our Services" />
+            android:title="Products and Services" />
         <item
             android:id="@+id/nav_clients"
             android:icon="@drawable/ic_clients"
             android:title="Clients" />
+        <item
+            android:id="@+id/nav_portfolio"
+            android:icon="@drawable/ic_clients"
+            android:title="Portfolio" />
         <item
             android:id="@+id/nav_career"
             android:icon="@drawable/ic_career"

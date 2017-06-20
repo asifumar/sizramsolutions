@@ -9,7 +9,7 @@ import com.sizramsolutions.SizramSolutions.Fragment.SchoolManagementFragment;
 import com.sizramsolutions.SizramSolutions.Fragment.WebDesignFragment;
 import com.sizramsolutions.SizramSolutions.Fragment.WebSolutionFragment;
 
-import static com.sizramsolutions.SizramSolutions.Tab.TabService.int_items;
+import static com.sizramsolutions.SizramSolutions.Tab.TabClients.items_clients;
 
 
 /**
@@ -42,7 +42,7 @@ public class AdapterClients extends FragmentPagerAdapter {
     public int getCount() {
 
 
-        return int_items;
+        return items_clients;
     }
 
     public CharSequence getPageTitle(int position){

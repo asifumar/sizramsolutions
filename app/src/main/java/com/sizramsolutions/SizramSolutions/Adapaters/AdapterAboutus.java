@@ -9,7 +9,7 @@ import com.sizramsolutions.SizramSolutions.Fragment.CompanyProfileFragment;
 import com.sizramsolutions.SizramSolutions.Fragment.MissionFragment;
 import com.sizramsolutions.SizramSolutions.Fragment.OrganogramFragment;
 
-import static com.sizramsolutions.SizramSolutions.Tab.TabService.int_items;
+import static com.sizramsolutions.SizramSolutions.Tab.TabAboutus.items_aboutus;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -41,7 +41,7 @@ public class AdapterAboutus extends FragmentPagerAdapter {
     public int getCount() {
 
 
-        return int_items;
+        return items_aboutus;
     }
 
     public CharSequence getPageTitle(int position){

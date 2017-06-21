@@ -1,13 +1,297 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.ProductsFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="Software Services" />
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="2000dp"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/cardView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:padding="16dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp">
+
+
+                    <TextView
+                        android:id="@+id/textView31"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#fa315948"
+                        android:text="School Management System"
+                        android:textAlignment="center"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView33"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView31"
+                        android:background="#fa315948"
+                        android:padding="5dp"
+                        android:text="Smart School’ is an intuitive and customizable school record management application. This software was built for the administrators of the schools in order to boost their productivity and reduce the time and effort required to accurately organize school records, for example-academic records, accounts records, store and inventory records."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light" />
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="11dp"
+                        app:srcCompat="@drawable/graduationcap"
+                        android:layout_below="@+id/textView33"
+                        android:layout_alignEnd="@+id/textView34" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="?attr/colorPrimary"
+                        app:srcCompat="@drawable/girls"
+                        android:layout_alignTop="@+id/imageView4"
+                        android:layout_centerHorizontal="true" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="19dp"
+                        app:srcCompat="@drawable/quran"
+                        android:layout_above="@+id/textView40"
+                        android:layout_toEndOf="@+id/textView40" />
+
+                    <TextView
+                        android:id="@+id/textView34"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView4"
+                        android:text="Central School" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/textView34"
+                        android:layout_below="@+id/imageView5"
+                        android:layout_centerHorizontal="true"
+                        android:text="Yakubia Girls School" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/imageView6"
+                        android:layout_below="@+id/imageView6"
+                        android:layout_toEndOf="@+id/textView40"
+                        android:text="The School of The Holy Quran" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp">
+
+                    <TextView
+                        android:id="@+id/textView44"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:background="#fa315948"
+                        android:text="Customized Web Solution"
+                        android:textAlignment="center"
+                        android:textColor="@color/cardview_light_background"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView44"
+                        android:background="#fa315948"
+                        android:padding="5dp"
+                        android:text="We don’t just build websites; we make a full, lucrative professional for your business. Dynamic or static, we construct these websites with more care to have a strong pace. We’ll create content management systems that everyday users can understand and alter as per their need."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textIsSelectable="false" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="11dp"
+                        app:srcCompat="@drawable/flag"
+                        android:layout_below="@+id/textView47"
+                        android:layout_alignParentStart="true" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginEnd="20dp"
+                        app:srcCompat="@drawable/ic_service"
+                        android:layout_above="@+id/textView49"
+                        android:layout_alignParentEnd="true" />
+
+                    <TextView
+                        android:id="@+id/textView48"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/imageView7"
+                        android:layout_alignStart="@+id/imageView7"
+                        android:layout_below="@+id/imageView7"
+                        android:text="Blangladesh Embassy Bahrain" />
+
+                    <TextView
+                        android:id="@+id/textView49"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/imageView8"
+                        android:layout_below="@+id/imageView11"
+                        android:text="MYA Trading" />
+
+                    <TextView
+                        android:id="@+id/textView50"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignStart="@+id/imageView10"
+                        android:layout_below="@+id/imageView10"
+                        android:text="TMSS Engineering College" />
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginTop="9dp"
+                        app:srcCompat="@drawable/energy"
+                        android:layout_below="@+id/textView48"
+                        android:layout_alignStart="@+id/textView48"
+                        android:layout_marginStart="12dp" />
+
+                    <ImageView
+                        android:id="@+id/imageView13"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        app:srcCompat="@drawable/it"
+                        android:layout_alignTop="@+id/imageView14"
+                        android:layout_alignStart="@+id/imageView10" />
+
+                    <ImageView
+                        android:id="@+id/imageView14"
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:layout_alignTop="@+id/imageView7"
+                        android:layout_centerHorizontal="true"
+                        app:srcCompat="@drawable/lankabangla" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_above="@+id/textView49"
+                        android:layout_centerHorizontal="true"
+                        app:srcCompat="@drawable/business" />
+
+                    <TextView
+                        android:id="@+id/textView51"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/imageView14"
+                        android:layout_below="@+id/imageView14"
+                        android:text="LankaBangla Finance" />
+
+                    <TextView
+                        android:id="@+id/textView52"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/imageView13"
+                        android:layout_below="@+id/imageView13"
+                        android:text="CSSTMLBD Website" />
+
+                    <TextView
+                        android:id="@+id/textView53"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignEnd="@+id/imageView11"
+                        android:layout_alignStart="@+id/imageView11"
+                        android:layout_below="@+id/imageView11"
+                        android:text="National Energy Services Ltd." />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:background="#fa315948">
+
+                    <TextView
+                        android:id="@+id/textView42"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:text="ERP for Manufacturing Companies"
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="20sp" />
+
+                    <TextView
+                        android:id="@+id/textView43"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView42"
+                        android:padding="5dp"
+                        android:text="Rack, measure, and monitor your entire business, from workplace to top floor and from raw materials to final product. Boost efficiency with real-time, actionable visibility into plant and business operations. Reduce prices and contour processes whereas you grow revenue and increase profits. Optimize lean producing to specialize in the key priorities to form smarter decisions, eliminate waste and increase client satisfaction. Easily adapt to new producing ways, ever-changing client necessities, and evolving business strategies."
+                        android:textAlignment="center"
+                        android:textColor="@android:color/background_light" />
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+    </ScrollView>
 
 </FrameLayout>

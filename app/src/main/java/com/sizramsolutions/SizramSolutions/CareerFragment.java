@@ -23,7 +23,7 @@ public class CareerFragment extends Fragment {
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View v = inflater.inflate(R.layout.career, container, false);
+        View v = inflater.inflate(R.layout.fragment_career, container, false);
         return v;
     }
 

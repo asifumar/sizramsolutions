@@ -66,11 +66,6 @@ public class MainActivity extends AppCompatActivity{
                     fragmentTransaction.replace(R.id.containerView, new TabClients()).commit();
                 }
 
-                if (item.getItemId()== R.id.nav_portfolio) {
-                    FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new PortfolioFragment()).commit();
-                }
-
                 if (item.getItemId()== R.id.nav_contactus) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
                     fragmentTransaction.replace(R.id.containerView, new ContactusFragment()).commit();

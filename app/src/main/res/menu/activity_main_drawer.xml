@@ -20,10 +20,6 @@
             android:icon="@drawable/ic_clients"
             android:title="Clients" />
         <item
-            android:id="@+id/nav_portfolio"
-            android:icon="@drawable/ic_clients"
-            android:title="Portfolio" />
-        <item
             android:id="@+id/nav_career"
             android:icon="@drawable/ic_career"
             android:title="Career" />

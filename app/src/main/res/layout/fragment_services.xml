@@ -34,7 +34,8 @@
                         android:paddingTop="8dp"
                         android:text="Software Solutions"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white" />
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView"
@@ -72,7 +73,8 @@
                         android:paddingTop="8dp"
                         android:text="Technology Consulting"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white" />
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView37"
@@ -112,7 +114,8 @@
                         android:paddingTop="8dp"
                         android:text="Data Visualization"
                         android:textAlignment="center"
-                        android:textColor="@android:color/white" />
+                        android:textColor="@android:color/white"
+                        android:textSize="20sp" />
 
                     <TextView
                         android:id="@+id/textView39"

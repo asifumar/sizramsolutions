@@ -15,19 +15,20 @@
         android:id="@+id/imageViewClients"
         android:layout_width="wrap_content"
         android:layout_height="160dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
         android:paddingRight="10dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/sizram" />
+        app:srcCompat="@drawable/sizram"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
 
     <ImageButton
         android:id="@+id/imageButtonClients"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/imageViewClients"
-        android:layout_marginStart="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="49dp"
+        android:layout_marginTop="143dp"
         android:background="@android:color/transparent"
         android:contentDescription="Clients"
         android:elevation="0dp"
@@ -37,54 +38,111 @@
 
     <ImageButton
         android:id="@+id/imageButtonServices"
-        android:layout_width="170dp"
-        android:layout_height="160dp"
-        android:layout_below="@+id/imageViewClients"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_below="@+id/imageButtonClients"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp"
+        android:layout_marginTop="12dp"
         android:backgroundTint="@android:color/background_light"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/computer" />
 
     <ImageButton
         android:id="@+id/imageButtonCareer"
-        android:layout_width="120dp"
-        android:layout_height="120dp"
-        android:layout_alignParentEnd="true"
-        android:layout_below="@+id/imageViewClients"
-        android:layout_marginEnd="36dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:background="@android:color/background_light"
         android:padding="10dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/career" />
+        app:srcCompat="@drawable/careergreen"
+        android:layout_above="@+id/textView9"
+        android:layout_alignEnd="@+id/textView45" />
 
     <ImageButton
         android:id="@+id/imageButtonAbout"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignEnd="@+id/imageButtonClients"
-        android:layout_below="@+id/imageButtonServices"
-        android:layout_marginTop="9dp"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:padding="5dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/aboutus" />
+        app:srcCompat="@drawable/aboutus"
+        android:layout_below="@+id/textView45"
+        android:layout_alignStart="@+id/textView45" />
 
     <ImageButton
         android:id="@+id/imageButtonContact"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignEnd="@+id/imageButtonCareer"
-        android:layout_alignTop="@+id/imageButtonAbout"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
         android:background="@android:color/transparent"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/mail" />
+        app:srcCompat="@drawable/mail"
+        android:layout_above="@+id/textView46"
+        android:layout_alignStart="@+id/textView9" />
 
     <FrameLayout
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true"></FrameLayout>
+        android:layout_alignParentStart="true"
+        android:id="@+id/frameLayout"></FrameLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAREER"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButtonClients"
+        android:layout_alignEnd="@+id/imageButtonCareer"
+        android:layout_marginEnd="12dp" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CLIENTS"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButtonClients"
+        android:layout_alignEnd="@+id/imageButtonAbout" />
+
+    <TextView
+        android:id="@+id/textView45"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageButtonServices"
+        android:layout_centerHorizontal="true"
+        android:text="PRODUCTS AND SERVICES"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView46"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButtonAbout"
+        android:layout_alignStart="@+id/imageButtonAbout" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONTACT US"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/imageButtonContact"
+        android:layout_alignStart="@+id/imageButtonCareer" />
 
 
 </RelativeLayout>

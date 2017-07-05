@@ -1,5 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:background="@android:color/background_light"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView57"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/scrollView2"
+                android:background="#fa315948"
+                android:paddingTop="5dp"
+                android:text="CAREER OPPORTUNITY"
+                android:textAlignment="center"
+                android:textColor="@android:color/background_light"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#fa315948"
+                android:padding="16dp"
+                android:text="Sizram Solutions is independently recognized as the company where talented and hardworking people can fully realize their potential, and even go beyond what they think they can achieve. We believe that our success as a company is every team member’s personal achievement."
+                android:textAlignment="textStart"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/buttonApply"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@color/colorPrimary"
+                android:text="Apply Now!"
+                android:textColor="@android:color/background_light" />
+        </LinearLayout>
+
+    </ScrollView>
 
 </RelativeLayout>

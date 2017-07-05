@@ -7,7 +7,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 import com.sizramsolutions.SizramSolutions.Fragment.SchoolManagementFragment;
 import com.sizramsolutions.SizramSolutions.Fragment.WebDesignFragment;
-import com.sizramsolutions.SizramSolutions.Fragment.WebSolutionFragment;
 
 import static com.sizramsolutions.SizramSolutions.Tab.TabClients.items_clients;
 
@@ -26,10 +25,8 @@ public class AdapterClients extends FragmentPagerAdapter {
     public Fragment getItem(int position) {
         switch (position){
             case 0:
-                return new WebSolutionFragment();
-            case 1:
                 return new SchoolManagementFragment();
-            case 2:
+            case 1:
                 return new WebDesignFragment();
 
 
@@ -48,10 +45,8 @@ public class AdapterClients extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position){
         switch (position){
             case 0:
-                return "Customized Web Solution";
-            case 1:
                 return "School Management";
-            case 2:
+            case 1:
                 return "Web Design";
 
         }

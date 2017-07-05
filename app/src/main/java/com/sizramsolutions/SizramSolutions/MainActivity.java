@@ -42,33 +42,44 @@ public class MainActivity extends AppCompatActivity{
                 if (item.getItemId()==R.id.nav_home)
                 {
                     FragmentTransaction fragmentTransaction=FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView,new HomeFragment()).commit();
-
+                    fragmentTransaction.replace(R.id.containerView,new HomeFragment());
+                    fragmentTransaction.addToBackStack("Home");
+                    fragmentTransaction.commit();
                 }
 
                 if (item.getItemId()== R.id.nav_aboutus) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabAboutus()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new TabAboutus());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }
 
                 if (item.getItemId()== R.id.nav_services_products) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabServicesProducts()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new TabServicesProducts());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }
 
                 if (item.getItemId()== R.id.nav_career) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new CareerFragment()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new CareerFragment());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }
 
                 if (item.getItemId()== R.id.nav_clients) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabClients()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new TabClients());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }
 
                 if (item.getItemId()== R.id.nav_contactus) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new ContactusFragment()).commit();
+                    fragmentTransaction.replace(R.id.containerView, new ContactusFragment());
+                    fragmentTransaction.addToBackStack(null);
+                    fragmentTransaction.commit();
                 }
 
 

@@ -14,119 +14,119 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/appname"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.SplashActivity"
+            android:name=".Activity.SplashActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.TmssActivity"
+            android:name=".Activity.TmssActivity"
             android:label="@string/title_activity_tmss"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.PundraActivity"
+            android:name=".Activity.PundraActivity"
             android:label="@string/title_activity_pundra"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.MyaActivity"
+            android:name=".Activity.MyaActivity"
             android:label="@string/title_activity_mya"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.EmbassyActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.EmbassyActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.CallCenterActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.CallCenterActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.TenderActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.TenderActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.HospitalActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.HospitalActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.CssActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.CssActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.CentralActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.CentralActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.HolyActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.HolyActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.YakubiaActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.YakubiaActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
         <activity
-            android:name="com.sizramsolutions.SizramSolutions.Activity.SummitActivity"
-            android:parentActivityName="com.sizramsolutions.SizramSolutions.MainActivity"
+            android:name=".Activity.SummitActivity"
+            android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
+        <activity android:name=".Activity.contactus"></activity>
     </application>
 
 </manifest>

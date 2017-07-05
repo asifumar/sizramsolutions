@@ -55,8 +55,9 @@
         android:padding="10dp"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/careergreen"
-        android:layout_above="@+id/textView9"
-        android:layout_alignEnd="@+id/textView45" />
+        android:layout_above="@+id/imageButtonServices"
+        android:layout_toEndOf="@+id/imageButtonClients"
+        android:layout_marginStart="48dp" />
 
     <ImageButton
         android:id="@+id/imageButtonAbout"
@@ -68,7 +69,7 @@
         android:scaleType="fitXY"
         app:srcCompat="@drawable/aboutus"
         android:layout_below="@+id/textView45"
-        android:layout_alignStart="@+id/textView45" />
+        android:layout_alignEnd="@+id/imageButtonClients" />
 
     <ImageButton
         android:id="@+id/imageButtonContact"
@@ -77,8 +78,8 @@
         android:background="@android:color/transparent"
         android:scaleType="fitXY"
         app:srcCompat="@drawable/mail"
-        android:layout_above="@+id/textView46"
-        android:layout_alignStart="@+id/textView9" />
+        android:layout_alignTop="@+id/imageButtonAbout"
+        android:layout_alignEnd="@+id/imageButtonCareer" />
 
     <FrameLayout
         android:layout_width="match_parent"
@@ -91,24 +92,25 @@
         android:id="@+id/textView9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageButtonCareer"
+        android:layout_below="@+id/imageButtonClients"
+        android:layout_marginEnd="12dp"
+        android:fontFamily="sans-serif"
         android:text="CAREER"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageButtonClients"
-        android:layout_alignEnd="@+id/imageButtonCareer"
-        android:layout_marginEnd="12dp" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView32"
-        android:layout_width="wrap_content"
+        android:layout_width="80dp"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView46"
+        android:layout_alignStart="@+id/imageButtonAbout"
+        android:layout_below="@+id/imageButtonClients"
+        android:layout_marginEnd="7dp"
         android:text="CLIENTS"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageButtonClients"
-        android:layout_alignEnd="@+id/imageButtonAbout" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView45"
@@ -116,33 +118,32 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/imageButtonServices"
         android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
         android:text="PRODUCTS AND SERVICES"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:textSize="16sp" />
 
     <TextView
         android:id="@+id/textView46"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButtonAbout"
+        android:layout_below="@+id/imageButtonAbout"
         android:text="ABOUT US"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageButtonAbout"
-        android:layout_alignStart="@+id/imageButtonAbout" />
+        android:textSize="15sp" />
 
     <TextView
         android:id="@+id/textView54"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imageButtonCareer"
+        android:layout_below="@+id/imageButtonContact"
+        android:layout_marginStart="19dp"
         android:text="CONTACT US"
         android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_below="@+id/imageButtonContact"
-        android:layout_alignStart="@+id/imageButtonCareer" />
+        android:textSize="15sp" />
 
 
 </RelativeLayout>

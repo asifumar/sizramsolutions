@@ -20,7 +20,7 @@ public class TabClients extends Fragment {
 
     public  static TabLayout tabLayout;
     public  static ViewPager viewPager;
-    public  static int items_clients= 3;
+    public  static int items_clients= 2;
 
 
     public TabClients() {

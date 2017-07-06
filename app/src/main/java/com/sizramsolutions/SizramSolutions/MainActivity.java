@@ -12,7 +12,6 @@ import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 
 import com.sizramsolutions.SizramSolutions.Tab.TabAboutus;
-import com.sizramsolutions.SizramSolutions.Tab.TabClients;
 import com.sizramsolutions.SizramSolutions.Tab.TabServicesProducts;
 
 public class MainActivity extends AppCompatActivity{
@@ -68,12 +67,6 @@ public class MainActivity extends AppCompatActivity{
                     fragmentTransaction.commit();
                 }
 
-                if (item.getItemId()== R.id.nav_clients) {
-                    FragmentTransaction fragmentTransaction= FM.beginTransaction();
-                    fragmentTransaction.replace(R.id.containerView, new TabClients());
-                    fragmentTransaction.addToBackStack(null);
-                    fragmentTransaction.commit();
-                }
 
                 if (item.getItemId()== R.id.nav_contactus) {
                     FragmentTransaction fragmentTransaction= FM.beginTransaction();

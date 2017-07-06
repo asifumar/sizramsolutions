@@ -10,8 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageButton;
 
+import com.sizramsolutions.SizramSolutions.Fragment.ProductsFragment;
 import com.sizramsolutions.SizramSolutions.Tab.TabAboutus;
-import com.sizramsolutions.SizramSolutions.Tab.TabClients;
 import com.sizramsolutions.SizramSolutions.Tab.TabServicesProducts;
 
 /**
@@ -49,7 +49,9 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new TabClients()).commit();
+                fragmentTransaction.replace(R.id.containerView, new ProductsFragment());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -58,7 +60,9 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new TabAboutus()).commit();
+                fragmentTransaction.replace(R.id.containerView, new TabAboutus());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -67,7 +71,9 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new ContactusFragment()).commit();
+                fragmentTransaction.replace(R.id.containerView, new ContactusFragment());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -76,7 +82,9 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new CareerFragment()).commit();
+                fragmentTransaction.replace(R.id.containerView, new CareerFragment());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 
@@ -85,7 +93,9 @@ public class HomeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentTransaction fragmentTransaction= fm.beginTransaction();
-                fragmentTransaction.replace(R.id.containerView, new TabServicesProducts()).commit();
+                fragmentTransaction.replace(R.id.containerView, new TabServicesProducts());
+                fragmentTransaction.addToBackStack(null);
+                fragmentTransaction.commit();
             }
         });
 

@@ -126,7 +126,6 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.sizramsolutions.SizramSolutions.MainActivity" />
         </activity>
-        <activity android:name=".Activity.contactus"></activity>
     </application>
 
 </manifest>

@@ -16,10 +16,6 @@
             android:icon="@drawable/ic_home"
             android:title="Products and Services" />
         <item
-            android:id="@+id/nav_clients"
-            android:icon="@drawable/ic_clients"
-            android:title="Clients" />
-        <item
             android:id="@+id/nav_career"
             android:icon="@drawable/ic_career"
             android:title="Career" />

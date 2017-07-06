@@ -19,8 +19,8 @@
         android:text="Contact Us"
         android:textAlignment="center"
         android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/background_light"
         android:textSize="40dp" />
-
 
 
     <EditText
@@ -31,30 +31,36 @@
         android:layout_below="@+id/textView4"
         android:layout_marginTop="28dp"
         android:ems="10"
+        android:hint="Name"
         android:inputType="textPersonName"
-        android:hint="Name" />
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
 
     <EditText
         android:id="@+id/editText_phone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_name"
+        android:layout_alignStart="@+id/editText_name"
+        android:layout_below="@+id/editText_name"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:inputType="phone"
         android:hint="Phone"
-        android:layout_below="@+id/editText_name"
-        android:layout_alignStart="@+id/editText_name"
-        android:layout_alignEnd="@+id/editText_name" />
+        android:inputType="phone"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
 
     <EditText
         android:id="@+id/editText_subject"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_phone"
+        android:layout_alignStart="@+id/editText_phone"
+        android:layout_below="@+id/editText_phone"
         android:layout_marginTop="18dp"
         android:hint="Subject"
-        android:layout_below="@+id/editText_phone"
-        android:layout_alignEnd="@+id/editText_phone"
-        android:layout_alignStart="@+id/editText_phone" />
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light" />
 
     <EditText
         android:id="@+id/editText_query"
@@ -66,7 +72,10 @@
         android:layout_marginTop="18dp"
         android:ems="10"
         android:hint="Query"
-        android:inputType="textPersonName" />
+        android:inputType="text"
+        android:textColor="@android:color/background_light"
+        android:textColorHint="@android:color/background_light"
+        android:textColorLink="?attr/colorPrimaryDark" />
 
     <Button
         android:id="@+id/button_mail"
@@ -79,6 +88,7 @@
         android:background="#80444444"
         android:backgroundTint="#fa315948"
         android:text="Send"
+        android:textColor="@android:color/background_light"
         android:textSize="18sp" />
 
 

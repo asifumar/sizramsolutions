@@ -45,7 +45,7 @@
         android:layout_marginTop="12dp"
         android:backgroundTint="@android:color/background_light"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/computer" />
+        app:srcCompat="@drawable/computerxml" />
 
     <ImageButton
         android:id="@+id/imageButtonCareer"
@@ -63,23 +63,23 @@
         android:id="@+id/imageButtonAbout"
         android:layout_width="80dp"
         android:layout_height="80dp"
+        android:layout_alignEnd="@+id/imageButtonClients"
+        android:layout_below="@+id/textView45"
         android:layout_marginTop="32dp"
         android:background="@android:color/background_light"
         android:padding="5dp"
         android:scaleType="fitXY"
-        app:srcCompat="@drawable/aboutus"
-        android:layout_below="@+id/textView45"
-        android:layout_alignEnd="@+id/imageButtonClients" />
+        app:srcCompat="@drawable/aboutusxml" />
 
     <ImageButton
         android:id="@+id/imageButtonContact"
         android:layout_width="80dp"
         android:layout_height="80dp"
-        android:background="@android:color/transparent"
-        android:scaleType="fitXY"
-        app:srcCompat="@drawable/mail"
+        android:layout_alignEnd="@+id/imageButtonCareer"
         android:layout_alignTop="@+id/imageButtonAbout"
-        android:layout_alignEnd="@+id/imageButtonCareer" />
+        android:background="@android:color/transparent"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/mail" />
 
     <FrameLayout
         android:layout_width="match_parent"

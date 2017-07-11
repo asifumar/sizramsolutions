@@ -70,7 +70,7 @@
                         android:layout_height="80dp"
                         android:layout_alignTop="@+id/imageView4"
                         android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/girls" />
+                        app:srcCompat="@drawable/yakubia" />
 
                     <ImageView
                         android:id="@+id/imageView6"
@@ -113,11 +113,11 @@
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="536dp">
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="509dp"
                     android:layout_margin="16dp">
 
                     <TextView
@@ -147,31 +147,32 @@
 
                     <ImageView
                         android:id="@+id/imageView7"
-                        android:layout_width="80dp"
+                        android:layout_width="200dp"
                         android:layout_height="80dp"
+                        android:layout_alignEnd="@+id/imageView13"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView47"
                         android:layout_marginStart="10dp"
                         android:layout_marginTop="11dp"
-                        app:srcCompat="@drawable/flag"
-                        android:layout_below="@+id/textView47"
-                        android:layout_alignParentStart="true" />
+                        android:layout_toStartOf="@+id/imageView14"
+                        app:srcCompat="@drawable/embassylogo" />
 
                     <ImageView
                         android:id="@+id/imageView10"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:layout_marginEnd="20dp"
-                        app:srcCompat="@drawable/ic_service"
                         android:layout_above="@+id/textView49"
-                        android:layout_alignParentEnd="true" />
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        app:srcCompat="@drawable/tmss" />
 
                     <TextView
                         android:id="@+id/textView48"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_alignEnd="@+id/imageView7"
-                        android:layout_alignStart="@+id/imageView7"
+                        android:text="Blangladesh Embassy Bahrain"
                         android:layout_below="@+id/imageView7"
-                        android:text="Blangladesh Embassy Bahrain" />
+                        android:layout_centerHorizontal="true" />
 
                     <TextView
                         android:id="@+id/textView49"
@@ -194,26 +195,26 @@
                         android:id="@+id/imageView11"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:layout_marginTop="9dp"
+                        android:layout_marginTop="10dp"
                         app:srcCompat="@drawable/energy"
                         android:layout_below="@+id/textView48"
-                        android:layout_alignStart="@+id/textView48"
-                        android:layout_marginStart="12dp" />
+                        android:layout_alignStart="@+id/imageView14" />
 
                     <ImageView
                         android:id="@+id/imageView13"
-                        android:layout_width="80dp"
+                        android:layout_width="100dp"
                         android:layout_height="80dp"
-                        app:srcCompat="@drawable/it"
-                        android:layout_alignTop="@+id/imageView14"
-                        android:layout_alignStart="@+id/imageView10" />
+                        app:srcCompat="@drawable/csstl"
+                        android:layout_below="@+id/textView50"
+                        android:layout_alignEnd="@+id/imageView10" />
 
                     <ImageView
                         android:id="@+id/imageView14"
-                        android:layout_width="120dp"
+                        android:layout_width="160dp"
                         android:layout_height="80dp"
-                        android:layout_alignTop="@+id/imageView7"
-                        android:layout_centerHorizontal="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView53"
+                        android:layout_marginStart="22dp"
                         app:srcCompat="@drawable/lankabangla" />
 
                     <ImageView
@@ -222,23 +223,26 @@
                         android:layout_height="80dp"
                         android:layout_above="@+id/textView49"
                         android:layout_centerHorizontal="true"
-                        app:srcCompat="@drawable/business" />
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/mya" />
 
                     <TextView
                         android:id="@+id/textView51"
                         android:layout_width="100dp"
                         android:layout_height="wrap_content"
-                        android:layout_alignStart="@+id/imageView14"
+                        android:text="LankaBangla Finance"
                         android:layout_below="@+id/imageView14"
-                        android:text="LankaBangla Finance" />
+                        android:layout_alignStart="@+id/imageView14"
+                        android:layout_marginStart="25dp" />
 
                     <TextView
                         android:id="@+id/textView52"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:layout_alignStart="@+id/imageView13"
+                        android:text="CSSTLBD Website"
                         android:layout_below="@+id/imageView13"
-                        android:text="CSSTLBD Website" />
+                        android:layout_alignEnd="@+id/imageView13" />
 
                     <TextView
                         android:id="@+id/textView53"
